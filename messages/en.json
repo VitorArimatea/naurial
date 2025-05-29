@@ -1,0 +1,10 @@
+{
+  "Navbar": {
+    "signin": "Sign In"
+  },
+  "HomePage": {
+    "title": "Hello world!",
+    "about": "Go to the about page",
+    "popular-companions": "Popular Companions"
+  }
+}
