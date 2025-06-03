@@ -1,10 +1,26 @@
 {
-  "Navbar": {
-    "signin": "Entrar"
+  "navbar": {
+    "sign-in": "Entrar"
   },
-  "HomePage": {
-    "title": "Olá mundo!",
+  "home": {
+    "table-title": "Sessões concluídas recentemente",
     "about": "Vá para a página sobre",
     "popular-companions": "Companheiros Populares"
+  },
+  "companionCard": {
+    "topic": "Tópico:",
+    "minutes": "minutos",
+    "button": "Iniciar lição"
+  },
+  "companionList": {
+    "lessons": "Lições",
+    "subject": "Disciplinas",
+    "duration": "Duração"
+  },
+  "cta": {
+    "cta-badge": "Comece a aprender do seu jeito.",
+    "cta-title": "Construa e personalize seu companheiro de aprendizagem",
+    "cta-text": "Escolha um nome, assunto, voz e personalidade — e comece a aprender por meio de conversas de voz que pareçam naturais e divertidas.",
+    "cta-button": "Construa seu novo professor"
   }
 }

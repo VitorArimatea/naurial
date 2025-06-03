@@ -1,0 +1,26 @@
+{
+  "navbar": {
+    "sign-in": "Acceder"
+  },
+  "home": {
+    "table-title": "Sesiones recientemente completadas",
+    "about": "Ir a la página acerca de",
+    "popular-companions": "Compañeros populares"
+  },
+  "companionCard": {
+    "topic": "Tema:",
+    "minutes": "minutos",
+    "button": "Iniciar lección"
+  },
+  "companionList": {
+    "lessons": "Lecciones",
+    "subject": "Disciplinas",
+    "duration": "Duración"
+  },
+  "cta": {
+    "cta-badge": "Empieza a aprender a tu manera.",
+    "cta-title": "Construye y personaliza tu compañero de aprendizaje",
+    "cta-text": "Elige un nombre, tema, voz y personalidad — y comienza a aprender a través de conversaciones de voz que parezcan naturales y divertidas.",
+    "cta-button": "Construya su nuevo professor"
+  }
+}

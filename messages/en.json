@@ -1,10 +1,26 @@
 {
-  "Navbar": {
-    "signin": "Sign In"
+  "navbar": {
+    "sign-in": "Sign In"
   },
-  "HomePage": {
-    "title": "Hello world!",
+  "home": {
+    "table-title": "Recently completed sessions",
     "about": "Go to the about page",
     "popular-companions": "Popular Companions"
+  },
+  "companionCard": {
+    "topic": "Topic:",
+    "minutes": "minutes",
+    "button": "Launch lesson"
+  },
+  "companionList": {
+    "lessons": "Lessons",
+    "subject": "Subjects",
+    "duration": "Duration"
+  },
+  "cta": {
+    "cta-badge": "Start learning your way.",
+    "cta-title": "Build and Personalize Learning Companion",
+    "cta-text": "Pick a name, subject, voice, & personality — and start learning through voice conversations that feel natural and fun.",
+    "cta-button": "Build New Companion"
   }
 }
