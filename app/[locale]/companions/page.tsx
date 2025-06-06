@@ -4,8 +4,11 @@ import SubjectFilter from "@/components/SubjectFilter";
 
 import { getAllCompanions } from "@/lib/actions/companion.actions";
 import { getSubjectColor } from "@/lib/utils";
+import { getTranslations } from "next-intl/server";
 
 const CompanionsLibrary = async ({ searchParams }: SearchParams) => {
+  const t = await getTranslations("companionsLibrary");
+
   const filters = await searchParams;
   const subject = filters.subject ? filters.subject : "";
   const topic = filters.topic ? filters.topic : "";
@@ -15,7 +18,7 @@ const CompanionsLibrary = async ({ searchParams }: SearchParams) => {
   return (
     <main>
       <section className="flex justify-between max-sm:flex-col gap-4">
-        <h1 className="text-4xl">Companions Library</h1>
+        <h1 className="text-4xl">{t("title")}</h1>
         <div className="flex gap-4">
           <SearchInput />
           <SubjectFilter />
